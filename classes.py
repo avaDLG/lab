@@ -75,4 +75,3 @@ class Television:
         :return: attributes of the tv object
         """
         return f'TV status: Is on = {self.__status}, Channel = {self.__channel}, Volume = {self.__volume} '
-
