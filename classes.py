@@ -16,9 +16,9 @@ class Television:
         :param volume: how high/low the volume is for the tv object
         :param status: whether the tv object is on or off
         """
-        self.__channel = Television.MIN_CHANNEL
-        self.__volume = Television.MIN_VOLUME
-        self.__status = False
+        self.__channel: int = Television.MIN_CHANNEL
+        self.__volume: int = Television.MIN_VOLUME
+        self.__status: bool = False
 
     def power(self) -> None:
         """
